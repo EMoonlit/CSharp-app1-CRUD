@@ -7,7 +7,6 @@ namespace App1_CRUD
     static SerieRepositorio repositorio = new SerieRepositorio();
     static void Main(string[] args)
     {
-      // EntidadeBase = minhaClasse = new EntidadeBase();
       string opcaoUsuario = ObterOpcaoUsuario();
 
       while (opcaoUsuario.ToLower() != "x")

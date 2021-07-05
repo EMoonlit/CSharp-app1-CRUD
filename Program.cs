@@ -62,8 +62,8 @@ namespace App1_CRUD
     {
       Console.WriteLine("Digite o id da série: ");
       int indiceSerie = int.Parse(Console.ReadLine());
-      // https://docs.microsoft.com/pt-br/dotnet/api/system.enum.getvalues?view=netcore-3.1
-      // https://docs.microsoft.com/pt-br/dotnet/api/system.enum.getname?view=netcore-3.1
+      // https://docs.microsoft.com/pt-br/dotnet/api/system.enum.getvalues?view=netcore-5.0
+      // https://docs.microsoft.com/pt-br/dotnet/api/system.enum.getname?view=netcore-5.0
       foreach (int i in Enum.GetValues(typeof(Genero)))
       {
         Console.WriteLine($"{i} - {Enum.GetName(typeof(Genero), i)}");
@@ -92,8 +92,8 @@ namespace App1_CRUD
     {
       Console.WriteLine("Inserir nova série");
 
-      // https://docs.microsoft.com/pt-br/dotnet/api/system.enum.getvalues?view=netcore-3.1
-      // https://docs.microsoft.com/pt-br/dotnet/api/system.enum.getname?view=netcore-3.1
+      // https://docs.microsoft.com/pt-br/dotnet/api/system.enum.getvalues?view=netcore-5.0
+      // https://docs.microsoft.com/pt-br/dotnet/api/system.enum.getname?view=netcore-5.0
       foreach (int i in Enum.GetValues(typeof(Genero)))
       {
         Console.WriteLine($"{i} - {Enum.GetName(typeof(Genero), i)}");

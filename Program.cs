@@ -46,7 +46,7 @@ namespace App1_CRUD
     }
     private static void ExcluirSerie()
     {
-      Console.WriteLine("Digite o id da série: ");
+      Console.WriteLine("Digite o Id da série: ");
       int indiceSerie = int.Parse(Console.ReadLine());
       repositorio.Exclui(indiceSerie);
     }
